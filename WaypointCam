@@ -1,0 +1,92 @@
+# WaypointCam Privacy Policy
+
+Effective date: March 25, 2026
+
+WaypointCam is developed by Alsatian Consulting.
+
+This Privacy Policy explains what information WaypointCam processes, how that information is used, and your choices.
+
+## Summary
+
+- WaypointCam is designed to process your data primarily on your device.
+- WaypointCam does not require an account.
+- WaypointCam does not operate a backend service that stores your captured media or waypoint data.
+- WaypointCam does not sell personal information.
+
+## Information Processed by the App
+
+WaypointCam may process the following categories of information on your device:
+
+- Photos and videos you capture in the app
+- Location data (when permission is granted)
+- Camera telemetry shown in overlays (for example heading, pitch, yaw, roll, zoom, timestamp, coordinates)
+- Waypoints and map annotations you create/import
+- App settings (for example coordinate format, time zone mode, save location preferences)
+
+## Why the App Processes This Information
+
+The app uses this information to provide core functionality:
+
+- Capture photos/videos
+- Geotag media and render overlays
+- Show and manage waypoints on map/camera views
+- Import/export waypoint data (`CSV`, `KML`, `KMZ`)
+- Save your preferences and settings
+
+## Data Storage
+
+- Captured media is stored on device storage in locations you choose (default `DCIM/WaypointCam`).
+- App settings and waypoint metadata are stored locally on device.
+- The app currently sets `allowBackup="false"` to reduce backup exposure of app data.
+
+## Data Sharing and Third Parties
+
+WaypointCam itself does not upload your captured media/waypoints to an Alsatian Consulting server.
+
+The app uses third-party platform/services for functionality:
+
+- Google Play Services Location APIs (device location services)
+- OpenStreetMap tiles via osmdroid (map tile retrieval)
+
+Those services may process network requests according to their own privacy terms.
+
+## Permissions
+
+Depending on features you use, the app may request:
+
+- Camera
+- Microphone (video with audio)
+- Location (fine/coarse)
+- Media read access (import/select media as needed)
+- Notifications (platform/version dependent)
+
+You can deny or revoke permissions in Android settings, but some features may stop working.
+
+## Retention and Deletion
+
+You control your data on your device.
+
+- You can delete captured photos/videos with your file/gallery tools.
+- You can clear waypoints/media markers inside the app.
+- You can uninstall the app to remove app-local data.
+
+## Security
+
+WaypointCam uses standard Android platform security controls and release hardening practices, including signed releases and production network security restrictions.
+
+No method of storage or transmission is 100% secure, but reasonable measures are used to reduce risk.
+
+## Children
+
+WaypointCam is not directed to children under 13.
+
+## Changes to This Policy
+
+This policy may be updated over time. Material changes should be reflected by updating the effective date above.
+
+## Contact
+
+For privacy questions, contact:
+
+- Alsatian Consulting
+- Email: geoff@alsatian.consulting
