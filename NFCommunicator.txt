@@ -1,0 +1,79 @@
+NFCOMMUNICATOR — PRIVACY POLICY
+Alsatian Consulting
+Effective date: May 8, 2026
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NFCommunicator does not collect, transmit, or store any personal data. The
+app has no network access and no analytics. Everything stays on your device
+and on the physical NFC tags you choose to use.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+INFORMATION WE COLLECT
+
+None. NFCommunicator does not collect any information about you or your
+device.
+
+HOW THE APP WORKS
+
+NFCommunicator reads and writes encrypted text messages to physical NFC
+tags. All processing happens locally on your Android device:
+
+  - Messages you type are encrypted on-device before being written to an
+    NFC tag.
+  - Encryption uses AES-256-GCM with PBKDF2-HMAC-SHA256 key derivation.
+  - A random salt and nonce are generated per message — no two encrypted
+    payloads are the same.
+  - The password you enter is used only during the current session and is
+    never stored anywhere.
+  - Decrypted message text exists only in memory for as long as you have
+    it open on screen.
+
+NETWORK ACCESS
+
+The app declares no network permissions and makes no network connections of
+any kind. There are no analytics SDKs, crash reporters, ad networks, or
+third-party libraries that communicate over the internet.
+
+NFC TAG DATA
+
+Data written to an NFC tag is stored on the physical tag itself — not in
+the cloud, not on our servers, and not in any account. Control of that data
+belongs entirely to whoever possesses the physical tag.
+
+PERMISSIONS
+
+The app requests one permission:
+
+  - NFC: required to read from and write to NFC tags. This permission is
+    not used for any other purpose.
+
+THIRD PARTIES
+
+NFCommunicator does not share data with any third party because no data is
+collected. The app contains no advertising, no in-app purchases, and no
+third-party SDKs that access user data.
+
+CHILDREN'S PRIVACY
+
+The app does not collect personal information from anyone, including
+children under the age of 13. It is rated Everyone on Google Play.
+
+CHANGES TO THIS POLICY
+
+If the privacy practices of NFCommunicator ever change, an updated policy
+will be published at this URL with a revised effective date. Given that the
+app collects no data, we do not anticipate material changes.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CONTACT
+
+Questions about this policy:
+
+  Alsatian Consulting
+  info@alsatian.consulting
+
+This policy applies to the Android application with package ID:
+  dev.alsatianconsulting.NFCommunicator
